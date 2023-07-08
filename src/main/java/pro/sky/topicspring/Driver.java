@@ -4,9 +4,9 @@ import pro.sky.topicspring.transport.Transport;
 public class Driver {
 
     private String name;
-    private Transport transport;
+    private Class<Transport> transport;
 
-    public Driver(String name, Transport transport) {
+    public Driver(String name, Class<Transport> transport) {
         this.name = name;
         this.transport = transport;
     }
@@ -15,12 +15,12 @@ public class Driver {
         this.name = name;
     }
 
-    public Transport getTransport() {
+    public Class<Transport> getTransport() {
         return transport;
     }
 
     public void setDriverOfTransport() {
-        System.out.println("Водитель " + name + " сел в машину " + transport.getModel());
+        System.out.println("Водитель " + name + " сел в машину " + transport);
     }
 
     @Override

@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Scope;
 import pro.sky.topicspring.transport.Bus;
 import pro.sky.topicspring.transport.Car;
 import pro.sky.topicspring.transport.Pickup;
+import pro.sky.topicspring.transport.Transport;
 
 @Configuration
 public class AppConfig {
@@ -30,7 +31,7 @@ public class AppConfig {
 
     @Bean(name = "driver1")
     public Driver getDriver1() {
-        return new Driver("Kolya");
+        return new Driver("Kolya", );
     }
 
     @Bean(name = "driver2")

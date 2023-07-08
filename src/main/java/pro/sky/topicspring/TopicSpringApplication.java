@@ -22,6 +22,9 @@ public class TopicSpringApplication {
         Bus bus = context.getBean("bus", Bus.class);
         bus.readyForWork();
 
+        Pickup pickup = context.getBean("pickup", Pickup.class);
+        pickup.readyForWork();
+
         Driver driver1 = context.getBean("driver1", Driver.class);
         driver1.setDriverOfTransport();
     }
