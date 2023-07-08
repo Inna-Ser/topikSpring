@@ -1,7 +1,4 @@
 package pro.sky.topicspring;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import pro.sky.topicspring.transport.Transport;
 
 public class Driver {
