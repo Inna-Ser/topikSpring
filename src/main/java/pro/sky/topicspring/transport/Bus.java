@@ -14,8 +14,7 @@ public class Bus extends Transport {
 
     @Override
     public String toString() {
-        return "Bus{" +
-                "model='" + getModel() + '\'' +
-                '}';
+        return "Vehicle" +
+                "model='" + getModel();
     }
 }

@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Scope;
 import pro.sky.topicspring.transport.Bus;
 import pro.sky.topicspring.transport.Car;
 import pro.sky.topicspring.transport.Pickup;
-import pro.sky.topicspring.transport.Transport;
 
 @Configuration
 public class AppConfig {
