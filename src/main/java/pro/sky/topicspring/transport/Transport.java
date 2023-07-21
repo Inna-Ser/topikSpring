@@ -11,6 +11,13 @@ public abstract class Transport {
     public abstract void readyForWork();
 
     public String getModel() {
-        return null;
+        return model;
+    }
+
+    @Override
+    public String toString() {
+        return "Transport{" +
+                "model='" + model + '\'' +
+                '}';
     }
 }

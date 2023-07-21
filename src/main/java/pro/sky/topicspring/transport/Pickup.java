@@ -1,13 +1,15 @@
 package pro.sky.topicspring.transport;
 
-public class Car extends Transport {
+import pro.sky.topicspring.transport.Transport;
 
-    public Car(String model) {
+public class Pickup extends Transport {
+
+    public Pickup(String model) {
         super(model);
     }
 
     @Override
-     public void readyForWork() {
+    public void readyForWork() {
         System.out.println(getModel() + " готов к работе.");
     }
 

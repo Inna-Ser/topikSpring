@@ -31,7 +31,7 @@ public class AppConfig {
 
     @Bean(name = "driver1")
     public Driver getDriver1() {
-        return new Driver("Kolya");
+        return new Driver("Kolya", );
     }
 
     @Bean(name = "driver2")
